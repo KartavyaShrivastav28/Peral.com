@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter</title>
+    <style>
+        .filter{
+            background-color: rgba(0, 0, 0, 0.85);
+            width: 170px;
+            color: white;
+            padding: 14px;
+            margin-top: 2px;
+            border: 3px  rgb(219, 214, 214);
+            display: inline-block;
+        }
+        #head{
+            font-size: 34px;
+        }
+
+        #brands{
+            text-decoration: none;
+
+        }
+
+        #mens{
+            text-decoration: none;
+
+        }
+
+        #size{
+            text-decoration: none;
+
+        }
+
+        a{
+            color: white;
+            text-decoration: none;
+        }
+
+        #b1{
+            font-size: 14px;
+        }
+
+        #b2{
+            font-size: 14px;
+        }
+
+        #b3{
+            font-size: 14px;
+        }
+
+        #b4{
+            font-size:14px;
+            width: 25px;
+        }
+
+        #b5{
+            font-size: 14px;
+            width: 25px;;
+        }
+
+        #b6{
+            font-size: 14px;
+            width: 25px;;
+        }
+
+        #b7{
+            font-size: 14px;
+            width: 30px;
+        }
+
+        #b8{
+            font-size: 14px;
+            width: 40px;
+        }
+
+        #b9{
+            font-size: 14px;
+            width: 40px;
+        }
+
+
+        a:hover{
+            cursor: pointer;
+            text-decoration: underline;
+            color: rgb(211, 66, 13);
+        }
+
+        button{
+            font-size: 14px;
+            border-radius: 14px;
+        }
+
+        button:hover{
+            color: whitesmoke;
+            background-color: orangered;
+        }
+
+        #color{
+            font-size: 24px;
+            width: 100px;
+        }
+
+        #reviews{
+            width: 14px;
+            background-color: rgba(0, 0, 0, 0.712);
+        }
+
+        #logo{
+            height: 80px;
+            width: 100px;
+        }
+
+        #Logo_name{
+            height: 30px;
+            color: whitesmoke;
+            align-self: center;
+            padding-left: 20px;
+        }
+
+        #logo_image{
+            margin-left: 10px;
+            height: 100px;
+            align-self: center;
+        }
+
+
+        .Top{
+            background-color: rgba(0, 0, 0, 0.85);
+            display: flex;
+            height: 120px;;
+        }
+
+        #search{
+            margin-left: 200px;
+            align-self: center;
+            width: 400px;
+            height: 30px;
+            border-radius: 10px;
+        }
+
+        #cart{
+            font-size: 25px;
+            color: white;
+            margin-left: 200px;
+            align-self: center;
+        }
+
+        #shop_now{
+            font-size: 25px;
+            color: white;
+            margin-left: 50px;
+            align-self: center;
+        }
+
+        .main_box{
+            height: 500px;
+            width: 86%;
+            background-color: rgba(0, 0, 0, 0.85);
+            display: inline-block;
+            /* align-self: flex-start; */
+            justify-content: flex-start;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="Top">
+        <button class="btn btn-dark btn-lg position-relative" id="logo_image">
+            <img src="Logo.jpg" alt="peral.com" id="logo"> 
+        </button>
+        <h2 id="Logo_name"><b>Pearl.com</b></h2>
+        <input id="search" type="text" autocomplete="off" placeholder="Search Pearl.in">
+        
+        <a href="#" target="_blank" id="cart">My Cart</a>
+        <a href="#" target="_blank" id="shop_now">Shop Now</a>        
+    </div>
+
+
+    <div class="bodyyyy">
+        <span class="filter">
+            <h1 id="head">≡ Filter :</h1>
+
+            <h3>Pearl Fashion Store:</h3>
+
+
+            <div class="brands">
+            <a href ="">• Top brands</a><br>
+            <a href="">• Trending brands</a><br>
+            <a href="">• Premium pearl</a><br>
+            </div>
+        <br>
+            <h3>Mens wore:</h3>
+
+
+            <div class="mens">
+            <a href ="">• Shirts</a><br>
+            <a href="">• T-Shirt</a><br>
+            <a href="">• Jeans</a><br>
+            <a href ="">• Trouser</a><br>
+            <a href="">• Pants</a><br>
+            <a href="">• Ethitic wore</a><br>
+            <a href ="">• Fashion</a><br>
+            <a href="">• Nightwore</a><br>
+            <a href="">• Partywore</a><br>
+            <a href="">• Dailywore</a><br>
+            </div>
+
+        <br>
+            <h3>Womens wore:</h3>
+            <div class="womens">
+                <a href ="">• Western</a><br>
+                <a href="">• Ethinic</a><br>
+                <a href="">• Maternity</a><br>
+                <a href ="">• Kurta</a><br>
+                <a href="">• Sarees</a><br>
+                <a href="">• Lancha</a><br>
+                <a href ="">• Salwar suit</a><br>
+                <a href="">• Nightwore</a><br>
+                <a href="">• Partywore</a><br>
+                <a href="">• Dailywore</a><br>
+                </div>
+        <br>
+
+
+                <h3>Size:</h3>
+                <div class="size">
+                <button id="b11">3XS</button>
+                <button id="b2">2XS</button>
+                <button id="b3">XS</button><br>
+                <button id="b4">S</button>
+                <button id="b5">M</button>
+                <button id="b6">L</button><br>
+                <button id="b7">XL</button>
+                <button id="b8">2XL</button>
+                <button id="b9">3XL</button><br>
+            <br>
+
+
+                <h3>Color:</h3>
+                <div class="color">
+            <input type="color" id="color">
+                </div>
+                <br>
+        
+                <div>
+                <h3>Pattern:</h3>
+                <label><input type="radio">Animal Print</label><br>
+                <label><input type="radio">Chequered</label><br>
+                <label><input type="radio">Cartoon</label><br>
+                <label><input type="radio">Solid</label><br>
+                <label><input type="radio">Stars</label><br>
+                <label><input type="radio">Striped</label><br>
+        <br>
+                </div>
+            
+            
+
+            <div>
+            <h3>Material:</h3>
+            <label><input type="radio">Cotton</label><br>
+            <label><input type="radio">Silk</label><br>
+            <label><input type="radio">Denim</label><br>
+            <label><input type="radio">Leather</label><br>
+            <label><input type="radio">Rayon</label><br>
+            <label><input type="radio">Natural fibre</label><br>
+            <label><input type="radio">Wool</label><br>
+            <br>
+            </div>
+            
+
+            <div>
+            <h3>Brands:</h3>
+            <label><input type="radio">Adidas</label><br>
+            <label><input type="radio">Calvin Klein</label><br>
+            <label><input type="radio">Louis vuiton</label><br>
+            <label><input type="radio">Peter England</label><br>
+            <label><input type="radio">Louis</label><br>
+            <label><input type="radio">Denim</label><br>
+            <label><input type="radio">H&M</label><br>
+            <label><input type="radio">TeamSpirit</label><br>
+            <br>
+            </div>
+
+
+            <div>
+            <h3>Price:</h3>
+            <label for=""><a href="">• Under ₹300</a></label><br>
+            <label for=""><a href="">• ₹300-₹500</a></label><br>
+            <label for=""><a href="">• ₹500-₹1000</a></label><br>
+            <label for=""><a href="">• ₹1000-₹1500</a></label><br>
+            <label for=""><a href="">• Over ₹1500</a></label><br>
+            <br>
+            </div>
+
+            <div>
+                <h3>Reviews: </h3> 
+
+            <img src="star.jpg" alt="" id="reviews">     
+                <img src="star.jpg" alt="" id="reviews">     
+                <img src="star.jpg" alt="" id="reviews">     
+                <img src="star.jpg" alt="" id="reviews">   
+                <label for=""><a href="">or more</a></label><br>
+                
+                
+            <img src="star.jpg" alt="" id="reviews">     
+                <img src="star.jpg" alt="" id="reviews">     
+                <img src="star.jpg" alt="" id="reviews">    
+                <label for=""><a href="">or more</a></label><br>
+
+            <img src="star.jpg" alt="" id="reviews">       
+                <img src="star.jpg" alt="" id="reviews">   
+                <label for=""><a href="">or more</a></label><br>
+                
+                <img src="star.jpg" alt="" id="reviews"> 
+                <label for=""><a href="">or more</a></label><br>
+                <br>
+            </div>
+
+
+
+
+            <h3>Discount:</h3>
+            <label for=""><a href="">10% Off or more</a></label><br>
+            <label for=""><a href="">20% Off or more</a></label><br>
+            <label for=""><a href="">35% Off or more</a></label><br>
+            <label for=""><a href="">50% Off or more</a></label><br>
+            <label for=""><a href="">65% Off or more</a></label><br>
+            <br>  </div>
+        </span>
+
+        <span class="main_box">
+            <h1> bbql</h1>
+
+        </span>
+    </div>
+</body>
+</html>
